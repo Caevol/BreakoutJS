@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <title>Breakout!</title>
+
+    <link rel="stylesheet" type = "text/css" href = "menu.css">
+</head>
+<body onload = "Menu.initialize();">
+<div id = "main-menu" class = "screen" width = "1500" height = "1500" style = "width: 900px; height: 900px; display: none;">
+    <button id = "new-game">New Game</button> <br>
+    <button id = "credits-page">Credits</button> <br>
+    <button id = "high-scores-page">High Scores</button> <br>
+    <button id = "resume-page">Resume Game</button>
+</div>
+<div id = "high-scores" class = "screen" width = "1500" height = "1500" style = "width: 900px; height: 900px; display: none;">
+    <h1><div id = "high-scores-list"></div></h1>
+    <button id="reset-scores">Reset Scores</button>
+    <button id = "back-button-scores">Back</button>
+</div>
+<div id = "credits" class = "screen" width = "1500" height = "1500" style = "width: 900px; height: 900px; display: none;">
+    <h1>
+    Created by Logan Pedersen <br>
+    Image from Pinterest user pix.toile-libre.org
+    </h1>
+    <button id = "back-button-credits">Back</button>
+
+</div>
+<canvas id = "breakout" class = "screen" width = "1500" height = "1500" style = "width: 900px; height: 900px;"></canvas>
+
+<script src = "input.js"></script>
+<script src = "menuSystem.js"></script>
+<script src = "credits.js"></script>
+<script src = "high-scores.js"></script>
+<script src = "main-menu.js"></script>
+<script src = "breakoutRenderer.js"></script>
+<script src = "breakoutGame.js"></script>
+</body>
+</html>

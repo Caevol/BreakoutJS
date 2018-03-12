@@ -1,0 +1,43 @@
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 4.5em;
+    color: #CECEF6;
+    width: 8em;
+    height: 1.5em;
+    background: #0404B4;
+    border: 0.1em solid rgb(255, 0, 0);
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+    margin: .1em;
+}
+
+button:hover {
+    background: #2E2EFE;
+}
+
+button:active {
+    color: #CECEF6;
+    background: rgb(0, 0, 0);
+}
+
+#high-scores{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#high-scores ol{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+#main-menu, #credits {
+    align-items: center;
+    text-align: center;
+}
